@@ -1,11 +1,17 @@
-/* Imported Variables CSS for colors */
-@import "./variable.css";
+:root {
+  /* Primary Colors */
+  --primary-color: #ffffff;
 
-/* Imported Button CSS for Button Style */
-@import "./button.css";
+  /* Secondary Colors */
+  --secondary-color: #f1f5f9;
+  --bg-color: #ffffff;
 
-/* Imported Main Css for Main Styling */
-@import "./main.css";
+  /* Text And Heading Colors */
+  --text-color: #0f172a;
+  --text-color-secondary: #ffffff;
+  --heading-color: #2563eb;
+  --footer-color: #475569;
 
-/* Imported Main Fonts */
-@import "./fonts.css";
+  /* Button Colors */
+  --btn-primary: #2563eb;
+}
