@@ -1,0 +1,11 @@
+/* Imported Variables CSS for colors */
+@import "./variable.css";
+
+/* Imported Button CSS for Button Style */
+@import "./button.css";
+
+/* Imported Main Css for Main Styling */
+@import "./main.css";
+
+/* Imported Main Fonts */
+@import "./fonts.css";
