@@ -11,8 +11,11 @@
   --text-color-secondary: #ffffff;
   --heading-color: #2563eb;
   --footer-color: #475569;
-   /* Button Colors */
-  --border-color:#e2e8f0;
+
+  /* Border Colors */
+  --border-color: #e2e8f0;
+
   /* Button Colors */
+  --btn-hover-color: #e6f0ff;
   --btn-primary: #2563eb;
 }
