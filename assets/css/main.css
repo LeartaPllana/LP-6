@@ -9,7 +9,7 @@ body {
   overflow-x: hidden;
   margin: 0;
 }
-
+/* === Nav Bar === */
 .nav {
   position: fixed;
   top: 0;
@@ -64,45 +64,48 @@ body {
   height: 12px;
 }
 
-.nav-button {
+/* === Hero Section === */
+.container {
+  width: 100%;
   display: flex;
-  gap: 10px;
-  margin-left: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  gap: 50px;
+  max-width: 1400px;
+  margin: 50px auto;
+  box-sizing: border-box;
 }
 
-.nav-button .btn {
-  padding: 8px 16px;
-  font-size: 14px;
-  font-family: "Roboto", serif;
-  font-weight: 500;
-  border-radius: 8px;
-  border: none;
-  cursor: pointer;
+.image-section img {
+  width: 100%;
+  max-width: 557px;
+  height: auto;
+  border-radius: 15px;
 }
 
-.nav-button .btn.white-btn {
-  background-color: transparent;
-  color: var(--btn-primary);
-  border: none;
+.text-section {
+  flex: 1;
+  max-width: 650px;
+  padding: 0 20px;
 }
 
-.nav-button .btn.white-btn:hover {
-  background-color: var(--btn-primary);
-  color: var(--primary-color);
+.text-section h1 {
+  font-size: 72px;
+  font-weight: 800;
+  color: var(--text-color);
+  margin-bottom: 20px;
 }
 
-.nav-button .btn.blue-btn {
-  background-color: var(--btn-primary);
-  color: var(--primary-color);
+.text-section p {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--text-color);
+  line-height: 1.6;
+  margin-bottom: 30px;
 }
 
-.nav-button .btn.blue-btn:hover {
-  background-color: var(--btn-primary);
-}
-
-.nav-menu-btn {
-  display: none;
-}
+/* Responsive  */
 @media (max-width: 768px) {
   .nav {
     padding: 0 10px;
@@ -137,7 +140,7 @@ body {
 
   .nav-menu ul li a {
     font-size: 18px;
-    color: #333;
+    color: var(--text-color);
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     display: flex;
@@ -177,5 +180,27 @@ body {
 
   .nav-button {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .image-section img {
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .text-section {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .buttons {
+    justify-content: center;
   }
 }
