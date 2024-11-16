@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Landing Page 6</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/appy-logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
 </head>
 <body>
-    
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="nav-logo">
+               <img src="./assets/images/appy-logo.png" alt="Appy Logo">
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#" class="link">Products <img src="./assets/icons/chevron-down.svg" alt="Dropdown arrow"></a></li>
+                    <li><a href="#" class="link">Business Solutions <img src="./assets/icons/chevron-down.svg" alt="Dropdown arrow"></a></li> 
+                    <li><a href="#" class="link">Help Center <img src="./assets/icons/chevron-down.svg" alt="Dropdown arrow"></a></li> 
+                    <li><a href="#" class="link">Pricing <img src="./assets/icons/chevron-down.svg" alt="Dropdown arrow"></a></li> 
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Log In</button>
+                <button class="btn blue-btn" id="getStartedBtn" onclick="getStarted()">Get Started</button>
+            </div>
+            <div class="nav-menu-btn">
+                <img src="./assets/icons/menu-icon.svg" alt="Menu icon responive" onclick="myMenuFunction()"></img>
+            </div>
+        </nav>
+        </div>
+        <script src="./assets/js/main.js"></script>
 </body>
 </html>
