@@ -1,87 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page 6</title>
     <link
       rel="shortcut icon"
       href="./assets/images/appy-logo.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
     <!-- Nav Bar -->
     <div class="wrapper">
-        <nav class="nav">
-            <div class="nav-logo">
-               <img src="./assets/images/appy-logo.png" alt="Appy Logo">
-            </div>
-            <div class="nav-menu" id="navMenu">
-                <ul>
-                    <li><a href="#" class="link">Products <img src="./assets/icons/chevron-down.svg" alt="Dropdown arrow"></a></li>
-                    <li><a href="#" class="link">Business Solutions <img src="./assets/icons/chevron-down.svg" alt="Dropdown arrow"></a></li> 
-                    <li><a href="#" class="link">Help Center <img src="./assets/icons/chevron-down.svg" alt="Dropdown arrow"></a></li> 
-                    <li><a href="#" class="link">Pricing <img src="./assets/icons/chevron-down.svg" alt="Dropdown arrow"></a></li> 
-                </ul>
-            </div>
-            <div class="nav-button">
-                <button class="btn white-btn" id="loginBtn" onclick="login()">Log In</button>
-                <button class="btn blue-btn" id="getStartedBtn" onclick="getStarted()">Get Started</button>
-            </div>
-            <div class="nav-menu-btn">
-                <img src="./assets/icons/menu-icon.svg" alt="Menu icon responive" onclick="myMenuFunction()"></img>
-            </div>
-        </nav>
+      <nav class="nav">
+        <div class="nav-logo">
+          <img src="./assets/images/appy-logo.png" alt="Appy Logo" />
         </div>
-        <!-- Hero Section -->
-        <div class="container">
-            <div class="text-section">
-                <h1>Building apps just got easier</h1>
-                <p>
-                  Aliquam vel platea curabitur sit vestibulum egestas sit id lorem. Aliquet neque, dui sed eget scelerisque. Non at et venenatis tortor amet feugiat ullamcorper in.
-                </p>
-                <div class="buttons">
-                  <button class="btn-primary">Get Started</button>
-                  <button class="btn-secondary"><img src="./assets/icons/play.svg" alt="play video icon"> Watch Video</button>
-                </div>
-              </div>
-            <div class="image-section">
-              <img src="./assets/images/home-image.png" alt="Phone Illustration">
-            </div>
-            
-          </div>
-        <script src="./assets/js/main.js"></script>
-        <!-- Service Section -->
-        <div class="services-section">
-            <div class="service-card">
-              <img src="./assets/images/red-circle-image.png" alt="Red Circle Icon" class="icon1" />
-              <h3>Fermentum amet</h3>
-              <p>
-                Pellentesque quis tincidunt sit sed. Tortor massa sed habitant dignissim senectus purus.
-                Consectetur integer id in et pulvinar interdum id.
-              </p>
-            </div>
-            
-            <div class="service-card">
-              <img src="./assets/images/yellow-circle-image.png" alt="Yellow Circle Icon" class="icon2" />
-              <h3>Dignissim quam</h3>
-              <p>
-                Quam sed neque vitae viverra purus venenatis ac non. Eget sed nunc, amet, nibh nulla.
-                Morbi sed risus ullamcorper diam, elit ut non.
-              </p>
-            </div>
-            
-            <div class="service-card">
-              <img src="./assets/images/blue-circle-image.png" alt="Blue Circle Icon" class="icon3" />
-              <h3>Risus morbi</h3>
-              <p>
-                Euismod sed pellentesque ut elementum. Accumsan gravida turpis ac at.
-                Ullamcorper vitae non est elit odio at augue consequat.
-              </p>
-            </div>
-          </div>
-</body>
+        <div class="nav-menu" id="navMenu">
+          <ul>
+            <li>
+              <a href="#" class="link"
+                >Products
+                <img src="./assets/icons/chevron-down.svg" alt="Dropdown arrow"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="link"
+                >Business Solutions
+                <img src="./assets/icons/chevron-down.svg" alt="Dropdown arrow"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="link"
+                >Help Center
+                <img src="./assets/icons/chevron-down.svg" alt="Dropdown arrow"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="link"
+                >Pricing
+                <img src="./assets/icons/chevron-down.svg" alt="Dropdown arrow"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-button">
+          <button class="btn white-btn" id="loginBtn" onclick="login()">
+            Log In
+          </button>
+          <button
+            class="btn blue-btn"
+            id="getStartedBtn"
+            onclick="getStarted()"
+          >
+            Get Started
+          </button>
+        </div>
+        <div class="nav-menu-btn">
+          <img
+            src="./assets/icons/menu-icon.svg"
+            alt="Menu icon responive"
+            onclick="myMenuFunction()"
+          /><img />
+        </div>
+      </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="container">
+      <div class="text-section">
+        <h1>Building apps just got easier</h1>
+        <p>
+          Aliquam vel platea curabitur sit vestibulum egestas sit id lorem.
+          Aliquet neque, dui sed eget scelerisque. Non at et venenatis tortor
+          amet feugiat ullamcorper in.
+        </p>
+        <div class="buttons">
+          <button class="btn-primary">Get Started</button>
+          <button class="btn-secondary">
+            <img src="./assets/icons/play.svg" alt="play video icon" /> Watch
+            Video
+          </button>
+        </div>
+      </div>
+      <div class="image-section">
+        <img src="./assets/images/home-image.png" alt="Phone Illustration" />
+      </div>
+    </div>
+
+    <!-- Service Section -->
+    <div class="services-section">
+      <div class="service-card">
+        <img
+          src="./assets/images/red-circle-image.png"
+          alt="Red Circle Icon"
+          class="icon1"
+        />
+        <h3>Fermentum amet</h3>
+        <p>
+          Pellentesque quis tincidunt sit sed. Tortor massa sed habitant
+          dignissim senectus purus. Consectetur integer id in et pulvinar
+          interdum id.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <img
+          src="./assets/images/yellow-circle-image.png"
+          alt="Yellow Circle Icon"
+          class="icon2"
+        />
+        <h3>Dignissim quam</h3>
+        <p>
+          Quam sed neque vitae viverra purus venenatis ac non. Eget sed nunc,
+          amet, nibh nulla. Morbi sed risus ullamcorper diam, elit ut non.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <img
+          src="./assets/images/blue-circle-image.png"
+          alt="Blue Circle Icon"
+          class="icon3"
+        />
+        <h3>Risus morbi</h3>
+        <p>
+          Euismod sed pellentesque ut elementum. Accumsan gravida turpis ac at.
+          Ullamcorper vitae non est elit odio at augue consequat.
+        </p>
+      </div>
+    </div>
+
+    <!-- Essential Tool Section -->
+    <section class="essential-tools">
+      <h1>All the essential tools</h1>
+      <p class="subtitle">
+        Odio vulputate cras vel lacinia turpis volutpat adipiscing. Sollicitudin
+        at velit, blandit tempus nunc in.
+      </p>
+      <div class="content">
+        <div class="phone">
+          <img src="./assets/images/about-us-image.png" alt="Illustration of a mobile phone showing essential tools" />
+        </div>
+        <div class="text">
+          <h2>Sem augue tempus</h2>
+          <p>
+            Venenatis blandit habitasse nunc, sapien enim elit in. Arcu,
+            pharetra, et cursus sit senectus in blandit. Aliquet enim fermentum
+            non semper nibh ut neque. Pellentesque ut tincidunt vitae arcu
+            bibendum malesuada lorem sapien volutpat.
+          </p>
+          <ul>
+            <li>Habitant integer interdum a</li>
+            <li>Tempus natoque id</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
