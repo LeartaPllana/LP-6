@@ -262,7 +262,97 @@ body {
   height: 130%;
   background-color: var(--border-line-color);
 }
+/* === Focus on Features Section === */
 
+.focus-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.focus-section h1 {
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 61.6px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  margin-bottom: 50px;
+  color: var(--text-color);
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.phone {
+  flex: 1;
+  max-width: 400px;
+  text-align: center;
+}
+
+.single-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.text {
+  flex: 1;
+  max-width: 500px;
+  text-align: left;
+}
+
+.text h2 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.text p {
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+.text ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.text ul li {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.cta-button {
+  background-color: var(--btn-primary);
+  color: var(--text-color-secondary);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.cta-button:hover {
+  background-color: var(--btn-primary);
+}
 /* Responsive  */
 @media (max-width: 768px) {
   .nav {
