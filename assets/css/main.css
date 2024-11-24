@@ -353,6 +353,133 @@ body {
 .cta-button:hover {
   background-color: var(--btn-primary);
 }
+
+/* === Success Stories Section === */
+.success-stories-section {
+  width: 100%;
+  background-color: var(--secondary-color); 
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.success-stories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 40px; 
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  max-width: 1200px; 
+  margin: 20px auto;
+  flex-wrap: wrap; 
+
+}
+.photo-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.photo-container img {
+  width: 100%;
+  max-width: 450px; 
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover; 
+}
+
+
+.text-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  text-align: left;
+  padding: 0 20px;
+}
+
+.text-container h3 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-align: left;
+color: var(--footer-color);
+margin-bottom: 18px;
+  
+}
+
+.text-container p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+.text-container .quote {
+  color: var(--quote-color); 
+  font-size: 24px; 
+  font-weight: bold;
+}
+
+.text-container .author {
+  margin-top: 15px;
+  font-size: 14px;
+  font-style: italic;
+  color: var(--text-color);
+}
+
+.arrow {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.arrow img {
+  width: 40px;
+  height: 40px;
+}
+
+.arrow.left-arrow {
+  left: -20px;
+}
+
+.arrow.right-arrow {
+  right: -20px;
+}
+
+
+.dots-container {
+  display: flex;
+  gap: 8px;
+  margin-top: 50px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: var(--border-line-color); 
+  border-radius: 50%; 
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease, width 0.3s ease, height 0.3s ease, border-radius 0.3s ease;
+}
+
+.dot.active {
+  background-color:var(--btn-primary);
+}
+
+
+
 /* Responsive  */
 @media (max-width: 768px) {
   .nav {
