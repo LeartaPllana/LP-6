@@ -438,7 +438,7 @@ body {
 
 .faq-section {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1370px;
   background-color: var(--primary-color);
   padding: 50px;
   border-radius: 8px;
@@ -497,6 +497,12 @@ body {
 
 .faq-item.active .faq-answer {
   display: block;
+}
+
+/* ===Sevrice Details Section === */
+.service-details-section{
+ width: 100%;
+  background-color: var(--secondary-color);
 }
 
 /* Responsive  */
