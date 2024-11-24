@@ -12,9 +12,10 @@
   --heading-color: #2563eb;
   --footer-color: #475569;
 
-  /* Border Colors */
+  /* Border And Quote Colors */
   --border-color: #e2e8f0;
   --border-line-color:#CBD5E1;
+  --quote-color:#EAB308;
 
   /* Button Colors */
   --btn-hover-color: #e6f0ff;
