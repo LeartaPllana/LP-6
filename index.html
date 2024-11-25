@@ -14,58 +14,68 @@
   <body>
     <!-- Nav Bar -->
     <section class="wrapper">
-      <nav class="nav">
-        <div class="nav-logo">
-          <img src="./assets/images/appy-logo.png" alt="Appy Logo" />
-        </div>
-        <div class="nav-menu" id="navMenu">
-          <ul>
-            <li>
-              <a href="#" class="link"
-                >Products
-                <img src="./assets/icons/chevron-down.svg" alt="Dropdown arrow"
-              /></a>
-            </li>
-            <li>
-              <a href="#" class="link"
-                >Business Solutions
-                <img src="./assets/icons/chevron-down.svg" alt="Dropdown arrow"
-              /></a>
-            </li>
-            <li>
-              <a href="#" class="link"
-                >Help Center
-                <img src="./assets/icons/chevron-down.svg" alt="Dropdown arrow"
-              /></a>
-            </li>
-            <li>
-              <a href="#" class="link"
-                >Pricing
-                <img src="./assets/icons/chevron-down.svg" alt="Dropdown arrow"
-              /></a>
-            </li>
-          </ul>
-        </div>
-        <div class="nav-button">
-          <button class="btn white-btn" id="loginBtn" onclick="login()">
-            Log In
-          </button>
-          <button
-            class="btn blue-btn"
-            id="getStartedBtn"
-            onclick="getStarted()"
-          >
-            Get Started
-          </button>
-        </div>
-        <div class="nav-menu-btn">
-          <img
-            src="./assets/icons/menu-icon.svg"
-            alt="Menu icon responive"
-            onclick="myMenuFunction()"
-          /><img />
-        </div>
-      </nav>
+      <div class="wrapper-menu">
+        <nav class="nav">
+          <div class="nav-logo">
+            <img src="./assets/images/appy-logo.png" alt="Appy Logo" />
+          </div>
+          <div class="nav-menu" id="navMenu">
+            <ul>
+              <li>
+                <a href="#" class="link"
+                  >Products
+                  <img
+                    src="./assets/icons/chevron-down.svg"
+                    alt="Dropdown arrow"
+                /></a>
+              </li>
+              <li>
+                <a href="#" class="link"
+                  >Business Solutions
+                  <img
+                    src="./assets/icons/chevron-down.svg"
+                    alt="Dropdown arrow"
+                /></a>
+              </li>
+              <li>
+                <a href="#" class="link"
+                  >Help Center
+                  <img
+                    src="./assets/icons/chevron-down.svg"
+                    alt="Dropdown arrow"
+                /></a>
+              </li>
+              <li>
+                <a href="#" class="link"
+                  >Pricing
+                  <img
+                    src="./assets/icons/chevron-down.svg"
+                    alt="Dropdown arrow"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-button">
+            <button class="btn white-btn" id="loginBtn" onclick="login()">
+              Log In
+            </button>
+            <button
+              class="btn blue-btn"
+              id="getStartedBtn"
+              onclick="getStarted()"
+            >
+              Get Started
+            </button>
+          </div>
+          <div class="nav-menu-btn">
+            <img
+              src="./assets/icons/menu-icon.svg"
+              alt="Menu icon responive"
+              onclick="myMenuFunction()"
+            /><img />
+          </div>
+        </nav>
+      </div>
     </section>
 
     <!-- Hero Section -->
@@ -92,44 +102,46 @@
 
     <!-- Service Section -->
     <section class="services-section">
-      <div class="service-card">
-        <img
-          src="./assets/images/red-circle-image.png"
-          alt="Red Circle Icon"
-          class="icon1"
-        />
-        <h3>Fermentum amet</h3>
-        <p>
-          Pellentesque quis tincidunt sit sed. Tortor massa sed habitant
-          dignissim senectus purus. Consectetur integer id in et pulvinar
-          interdum id.
-        </p>
-      </div>
+      <div class="service-container">
+        <div class="service-card">
+          <img
+            src="./assets/images/red-circle-image.png"
+            alt="Red Circle Icon"
+            class="icon1"
+          />
+          <h3>Fermentum amet</h3>
+          <p>
+            Pellentesque quis tincidunt sit sed. Tortor massa sed habitant
+            dignissim senectus purus. Consectetur integer id in et pulvinar
+            interdum id.
+          </p>
+        </div>
 
-      <div class="service-card">
-        <img
-          src="./assets/images/yellow-circle-image.png"
-          alt="Yellow Circle Icon"
-          class="icon2"
-        />
-        <h3>Dignissim quam</h3>
-        <p>
-          Quam sed neque vitae viverra purus venenatis ac non. Eget sed nunc,
-          amet, nibh nulla. Morbi sed risus ullamcorper diam, elit ut non.
-        </p>
-      </div>
+        <div class="service-card">
+          <img
+            src="./assets/images/yellow-circle-image.png"
+            alt="Yellow Circle Icon"
+            class="icon2"
+          />
+          <h3>Dignissim quam</h3>
+          <p>
+            Quam sed neque vitae viverra purus venenatis ac non. Eget sed nunc,
+            amet, nibh nulla. Morbi sed risus ullamcorper diam, elit ut non.
+          </p>
+        </div>
 
-      <div class="service-card">
-        <img
-          src="./assets/images/blue-circle-image.png"
-          alt="Blue Circle Icon"
-          class="icon3"
-        />
-        <h3>Risus morbi</h3>
-        <p>
-          Euismod sed pellentesque ut elementum. Accumsan gravida turpis ac at.
-          Ullamcorper vitae non est elit odio at augue consequat.
-        </p>
+        <div class="service-card">
+          <img
+            src="./assets/images/blue-circle-image.png"
+            alt="Blue Circle Icon"
+            class="icon3"
+          />
+          <h3>Risus morbi</h3>
+          <p>
+            Euismod sed pellentesque ut elementum. Accumsan gravida turpis ac
+            at. Ullamcorper vitae non est elit odio at augue consequat.
+          </p>
+        </div>
       </div>
     </section>
 
@@ -192,7 +204,7 @@
           </ul>
         </div>
       </div>
-      <button class="btn-primary">Get Started</button>
+      <button class="btn-primary-1">Get Started</button>
     </section>
 
     <!-- Success Stories Section -->
@@ -311,7 +323,7 @@
             sit risus elementum scelerisque.
           </p>
           <div class="buttons">
-            <button class="btn-primary">Get Started</button>
+            <button class="btn-primary-2">Get Started</button>
           </div>
         </div>
         <div class="image-section">
@@ -393,26 +405,37 @@
           </ul>
         </div>
       </div>
-    
+
       <!-- Footer bottom -->
       <div class="footer-bottom">
         <div class="footer-bottom-container">
           <div class="footer-logo">
-            <a href="#"><img src="./assets/images/appy-logo.png" alt="Appy Logo" /></a>
+            <a href="#"
+              ><img src="./assets/images/appy-logo.png" alt="Appy Logo"
+            /></a>
           </div>
           <p>&copy; 2023 All rights reserved.</p>
           <div class="footer-socials">
-            <a href="#"><img src="./assets/icons/facebook.svg" alt="Facebook" /></a>
-            <a href="#"><img src="./assets/icons/instagram.svg" alt="Instagram" /></a>
-            <a href="#"><img src="./assets/icons/twitter.svg" alt="Twitter" /></a>
-            <a href="#"><img src="./assets/icons/linkedin.svg" alt="LinkedIn" /></a>
-            <a href="#"><img src="./assets/icons/youtube.svg" alt="YouTube" /></a>
+            <a href="#"
+              ><img src="./assets/icons/facebook.svg" alt="Facebook"
+            /></a>
+            <a href="#"
+              ><img src="./assets/icons/instagram.svg" alt="Instagram"
+            /></a>
+            <a href="#"
+              ><img src="./assets/icons/twitter.svg" alt="Twitter"
+            /></a>
+            <a href="#"
+              ><img src="./assets/icons/linkedin.svg" alt="LinkedIn"
+            /></a>
+            <a href="#"
+              ><img src="./assets/icons/youtube.svg" alt="YouTube"
+            /></a>
           </div>
         </div>
       </div>
     </footer>
-   
-    
+
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
